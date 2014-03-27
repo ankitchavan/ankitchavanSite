@@ -11,7 +11,7 @@ body{
 
 
 #home-img{
-	background-image:url('https://dl.dropboxusercontent.com/s/gflynp1heysy2oe/mainBg.png');
+	background-image:url(/images/homeImg.png);
 	background-repeat:no-repeat;
 	background-position:center;
 	background-size:cover;
@@ -22,16 +22,16 @@ body{
 
 #divider1{
 	box-shadow:0 0 50px rgba(0,0,0,0.9);
-	background:url(https://dl.dropboxusercontent.com/s/nseuag296cjebbp/stripe.jpg);
+	background:url(/images/stripe.jpg);
 	width:100%;
-	height:16px;
+	height:8px;
 	top:1000px;
 	display:block;
 	z-index:1;
 }
 
 .navbar{
-	background-image:url(https://dl.dropboxusercontent.com/s/u8trp7sfib8t85z/TransparentBg.png);
+	background-image:url(/images/TransparentBg.png);
 	background-color:transparent;
 	width:100%;
 	border-radius:0;
@@ -65,8 +65,8 @@ body{
 
 
 .main h1, .main p{
-	text-shadow: 5px 5px 5px #9D9D9D;
-	color:white;
+	/*text-shadow: 5px 5px 5px #9D9D9D;*/
+	color:#616161;
 }
 
 .no-margin{
@@ -76,7 +76,7 @@ body{
 #about{
 	text-shadow: 5px 5px 5px black;
 	padding-top:1%;
-	background-image:url(https://dl.dropboxusercontent.com/s/6m5d0ymlh6rpcqk/aboutBg.jpg);
+	background-image:url(/images/aboutBg.jpg);
 	color:white;
 	background-attachment:fixed;
 	background-position:left center;
@@ -88,6 +88,7 @@ body{
 }
 
 #about h1{
+	text-shadow:none;
 	text-shadow: 5px 5px 5px #9D9D9D;
 	padding-top:4%;
 }
@@ -114,7 +115,7 @@ body{
 
 #resume{
 	padding-top:4%;
-	background-image:url(https://dl.dropboxusercontent.com/s/0islcdd6wkd6h11/resumeBg.jpg);
+	background-image:url(/images/resumeBg.jpg);
 	color:white;
 	background-attachment:fixed;
 	background-position:left center;
@@ -131,12 +132,27 @@ body{
 ul{
 	list-style:none;
 	font-size:21px;
+	font-weight:normal;
 }
 
 ol{
 	font-size:21px;
+	font-weight:normal;
 }
 
+ol a{
+	color:aqua;
+}
+
+.link{
+	color:aqua;
+	text-shadow:none;
+}
+
+.link:hover{
+	color:aqua;
+	text-shadow: 5px 5px 5px black;
+}
 
 .resumeInfo{
 
@@ -158,12 +174,16 @@ ol{
 
 #contact{
 	text-shadow: 5px 5px 5px gray;
-	background-image:url(https://dl.dropboxusercontent.com/s/jdi280oatyaz32t/contactBg.jpg);
+	background-image:url(/images/contactBg.jpg);
 	padding-top:1%;
 	background-position:center;
 	background-size:100%;
 	width:100%;
 	height:100%;
+}
+
+#contact .jumbotron h3{
+	font-weight: normal;
 }
 
 #contact .jumbotron h3 span{
@@ -196,7 +216,7 @@ ol{
 
 #contact .mainFooter{
 	height:55px;
-	background-image:url(https://dl.dropboxusercontent.com/s/f6vegowcoofxoxx/TransparentBg1.png);
+	background-image:url(/images/TransparentBg1.png);
 	margin-top:2%;
 }
 
@@ -233,12 +253,12 @@ ol{
 		background-position:center;
 		background-size:cover;
 		width:100%;
-		height:600px;
+		height:350px;
 		display:inline-block;
 	}
 	
 	#divider1{
-		height:8px;
+		height:4px;
 	}
 	
 	#about h1{
@@ -264,19 +284,23 @@ ol{
 		background-size:cover;
 		background-repeat:no-repeat;
 		width:100%;
+		text-shadow:none;
 	}
 	
 	#resume p{
-	margin-left:20px;
+		margin-left:20px;
+		text-shadow:none;
 	}
 	
 	#resume h4{
+		text-shadow:none;
 		margin-left:-15px;
 		font-size:22px;
 	}
 
 	#resume p, #resume ul, #resume ol, #resume h6{
 		font-size:15px;
+		text-shadow:none;
 	}
 	
 	#resume .resumeInfo ul{
