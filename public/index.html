@@ -1,21 +1,28 @@
 <!DOCTYPE html>
+<div style="display:none; z-index:10001; opacity:0;"></div>
 <html lang="en">
+	
   <head>
     <meta charset="utf-8">
     <title>Ankit Chavan</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	
-    <!-- Loading Bootstrap -->
-    <link href="bootstrap/css/bootstrap.css" rel="stylesheet">
-	
-    <!-- Loading Flat UI -->
-    <link href="css/flat-ui.css" rel="stylesheet">
-	<link href="css/template.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Belleza' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Josefin+Slab' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+    <!-- Loading CSS -->
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/component.css" />
+    <!-- Loading icon -->
     <link rel="shortcut icon" href="images/favicon.ico">
-	<link href='http://fonts.googleapis.com/css?family=Droid+Serif' rel='stylesheet' type='text/css'>
-
+    <script src="Js/jquery.min.js"></script>
+    <!-- Loading init_Js -->
+    <script src="Js/init.js"></script>
+	<!-- Loading srolling_Js -->
 	<link rel="stylesheet" media="screen,projection" href="css/ui.totop.css" />
-	<script type="text/javascript" src="js/scroll.js"></script>
+	<script type="text/javascript" src="Js/scroll.js"></script>
+	<!-- Loading hoverEffect Js -->
+	<script src="Js/snap.svg-min.js"></script>
     <!-- HTML5 shim, for IE6-8 support of HTML5 elements. All other JS at the end of file. -->
     <!--[if lt IE 9]>
       <script src="js/html5shiv.js"></script>
@@ -37,12 +44,12 @@
     scrollToElement('#about', 1500, -300);
 	});
 	
-	$('a.resume').click(function () {
-    scrollToElement('#resume', 1500, -300);
+	$('a.work').click(function () {
+    scrollToElement('#work', 1000);
 	});
 	
-	$('a.home-img').click(function () {
-    scrollToElement('#home-img',	 1500, -300);
+	$('a.home').click(function () {
+    scrollToElement('#home', 1500, -300);
 	});
 	
 	$('a.contact').click(function () {
@@ -51,50 +58,91 @@
 	</script>
 	
 	
+	<script src="Js/skel.min.js">
+	{
+  		prefix: "style",
+  		resetCSS: true,
+  		boxModel: "border",
+  		grid: { gutters: 40 },
+  		breakpoints: {
+    		wide: { range: "1300-", containers: 1350, grid: { gutters: 60 } },
+    		narrow: { range: "-1299", containers: "fluid", grid: { gutters: 50 } },
+    		narrow960: { range: "-960" },
+    		narrow740: { range: "-740" },
+    		narrow460: { range: "-460", grid: { collapse: true } }
+  		}
+	}
+</script>
+	
   </head>
   <body>
 	
     <!-- /.container -->
 	<div class="container">
-		<div id="home-img">
+		<div id="home">
 	
-		<header>
-			<nav class="navbar navbar-default" role="navigation">
-				<div class="container-fluid">
-				<!-- Brand and toggle get grouped for better mobile display -->
-					<div class="navbar-header">
-						<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-							<span class="sr-only">Toggle navigation</span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-							<span class="icon-bar"></span>
-						</button>
-						<a class="navbar-brand" href="#home-img">Ankit Chavan</a>
-					</div>
-
-					<!-- Collect the nav links, forms, and other content for toggling -->
-					<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#about">About</a></li>
-							<li><a href="#resume">Resume</a></li>
-							<li><a href="#contact">Contact</a></li>
-						</ul>
-					</div><!-- /.navbar-collapse -->
-				</div><!-- /.container-fluid -->
-			</nav>
-		</header>
-	
-		<section class="panel">
-			<div class="main jumbotron jumbotron-black ">
+		<div id="header" class="row">
+          <div class="4u headerName">
+            <h1>Ankit Chavan</h1>
+          </div>
+          <nav id="nav" class="6u">
+            <a href="#home">Home</a>
+            <a href="#about">About Me</a>
+            <a href="#work">My Work</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact Me</a>
+          </nav>
+        </div>
+		
+		<section class="text-centered">
+			<div class="main">
 				<h1>Front end developer.</h1>
-				<p>
-					Design to make perfect.
-				</p>
 			</div>
 		</section>
-		</div>
 		
-		<section id="divider1"></section>
+		
+		<div class="group_1" id="group_1">
+		<div class="group_1-items">
+			<div class="wrap">
+				<div id="owl-demo" class="owl-carousel">
+			
+		<div class="item">
+			<div class="carousel">
+		  	    <div class="group_1_img uiIcon">
+					<h3 class="ui fontend">FRONTEND</h3>
+					<h4 class="ux ui1">UI</h4>
+					<div class="clear"> </div>
+				</div>
+				<div class="group_1_text">
+					<h3>I create simple interfaces for humans and enjoy pixel-perfection.</h3>
+					<p>I’m passionate user interface designer with interaction design background.</p>
+				</div>
+					<div class="clear"> </div>
+			 </div>
+		</div>	
+		<div class="item">
+			<div class="carousel">
+		  	    <div class="group_1_img uiIcon">
+					<h3 class="ui core">CORE</h3>
+					<h4 class="ux ui1">UI</h4>
+					<div class="clear"> </div>
+				</div>
+				<div class="group_1_text">
+					<h3>I create simple interfaces for humans and enjoy pixel-perfection.</h3>
+					<p>I’m passionate user interface designer with interaction design background.</p>
+				</div>
+					<div class="clear"> </div>
+			 </div>
+		</div>	
+	</div>
+	</div>
+	</div>
+	</div>
+		<div class="down-arrow">
+			<a href="#about" class="scroll" ><span> </span></a>
+		</div>
+
+	</div>
 
 		<section id="about" data-speed="16" data-type="background">
 			<div class="text-centered">
@@ -103,161 +151,251 @@
 				<p>
 					I live in Navi Mumbai, India.<br>
 				</p>
+				<hr style="margin-top:20px;margin-bottom:-15px;">
 			</div>
-			<div class="jumbotron jumbotron-black text-centered">
-				<div class="row">
-					<div class="showcase-item col-md-4">
-						<div class="showcase-item-box">
-							<img src="images/icons/png/cricket.png"/>
+			<div class="text-centered likes">
+				<div class="row ">
+					<div class="u4">
+						<img src="images/icons/cricket.png"/>
 							<p>I like to play Cricket.</p>
-						</div>
+						
 					</div>
 					
-					<div class="showcase-item col-md-4">
-						<div class="showcase-item-box">
-							<img src="images/icons/png/camera3.png"/>
+					<div class="u4">
+							<img src="images/icons/camera3.png"/>
 							<p>I like Photography.</p>
-						</div>
+						
 					</div>
 					
-					<div class="showcase-item col-md-4">
-						<div class="showcase-item-box">
-							<img src="images/icons/png/fstream.png"/>
+					<div class="u4">
+							<img src="images/icons/fstream.png"/>
 							<p>I like to listen Songs.</p>
-						</div>
+						
 					</div>
 				</div>
+				<hr style="margin-top:0px;margin-bottom:0px;">
 			</div>
 			<div class="text-centered">
 				<br>
-				<p>Wish me Happy B'day on <b>30th January</b></p>
+				<p>Wish me Happy B'day on <b>30th January</b></p><br>
 				<p>Marital Status: Single</p>
 			</div>
 		</section>
-		<section id="divider1"></section>
-		<section id="resume">
-			<div class="jumbotron">
-
-				<p>Address- A1, Room No.8, Gharkul, Sector.15, Kharghar, Navi Mumbai- 410210.<br>
-				Contact- 7715837737.<br>
-				Email- ankit.11ch@gmail.com
-				</p>
-				<br>
-				<div class="resumeInfo">
-					<h4>Career Objective:</h4>
-					<hr>
-						<ul>
-							<li><p>I want to achieve excellence and success in my career.</p></li>
-						</ul>
-					<br>
-					<h4>Education Qualification:</h4>
-					<hr>
-						<ul>
-							<li>Year 2012-13: Bachelor of Science (Information Technology)(Mumbai University)</li>
-							<li>Year 2008-09: HSC(Maharashtra Board)</li>
-							<li>Year 2006-07: SSC(Maharashtra Board)</li>
-						</ul>
-						<br>
-					<h4>Professional Skills:</h4>
-					<hr>
-						<ul>
-							<li>Languages: C, C++, C#</li>
-							<li>Web Technologies: HTML5, CSS3, JavaScript, jQuery, Ruby and Rack and Git.</li>
-							<li>Database: SQL server 2008, MySQL, PostgreSQL.</li>
-							<li>CMS: Wordpress.</li>
-							<li>PASS: Heroku.</li>
-						</ul>
-						<br>
-					<h4>Project</h4>
-					<hr>
-						<ol>
-							Currently working on:
-							<li>Project Name: <b>Website for <a href="http://www.shirgaon.com" target="_blank">Shirgaon</a> village.
-							<h6>URL: <b><a class="link" href="http://www.shirgaon.com" target="_blank">www.shirgaon.com</a><b></h6></b></li>
-							<br>
-							<ul>
-								<li>language of implementation: HTML, CSS and PHP.</li>
-								<li>CMS: Wordpress</li>
-								<li>Database: MySQL</li>
-								<br>
-								<li>Project Summary: 
-									<p>website about Shirgaon village located in Ratnagiri, Maharashtra.</p>
-								</li>
-							</ul>
-							<br>
-							<li>Project Name:<b> Windows Application for Class Management.</b></li>
-							<br>
-							<ul>
-								<li>language of implementation: C#.net</li>
-								<li>Database: SQL Server 2008</li>
-								<br>
-								<li>Project Summary: 
-									<p>This application is made for Classes in order to have an effective storage and to make Paper-less work with an error free environment.</p>
-								</li>
-							</ul>
-						<br>
-					
-							<li>Project Name:<b> Course Finder Channel</b></li>
-							<br>
-							<ul>
-								<li>language of implementation: Asp.net</li>
-								<li>Database: SQL Server 2008</li>
-								<br>
-								<li>Project Summary: 
-									<p>This web application is made for getting information about Universities, Colleges and Courses.</p>
-								</li>
-							</ul>
-							
-						</ol>
-				
-				</div>
-			</div>
-		</section>
 		
-		<section id="divider1"></section>
+		<section id="work">
+			<div class="work group_2" id="Portfolio">
+
+					<h3 class="heading">My Work</h3>
+
+					<div class="group_2_items">
+						<div class="wrap">
+							<div id="owl-demo1" class="owl-carousel">
+					<div class="item" >
+						<div class="carousel">
+		  	    			<div class="group_2_img1">
+							<img src="images/shirgaon.png" style="width:700px; height:480px; border:0px solid #22A6BF;" alt="">
+							</div>
+					<div class="group_2_text2">
+						<div class="desc">
+						<h3>client</h3>
+						<h4>Mr. Vivek Shinde</h4>
+					</div>
+					<div class="desc">
+						<h3>Role in project</h3>
+						<h4>Web Designer</h4>
+					</div>
+					<div class="desc">
+						<h3>language of implementation</h3>
+						<h4>Html, Css and Php.</h4>
+					</div>
+					<div class="desc">
+						<h3>CMS</h3>
+						<h4>Wordpress</h4>
+					</div>
+					<div class="desc">
+						<h3>Database</h3>
+						<h4>MySQL</h4>
+					</div>
+					<div class="button_2">
+						<a href="http://www.shirgaon.com" target="_blank">Visit Website</a>
+					</div>
+				</div>
+					<div class="clear"> </div>
+					
+			 </div>
+		</div>	
+		<div class="item">
+			<div class="carousel">
+		  	   <div class="group_2_img1">
+					<img src="images/vickeeyz.png" style="width:700px; height:480px; border:0px solid #22A6BF;" alt="">
+				</div>
+				<div class="group_2_text2" style="margin-left:-10px;">
+					<div class="desc">
+						<h3>client</h3>
+						<h4>Mr. Vikrant Kamble</h4>
+					</div>
+					<div class="desc">
+						<h3>Role in project</h3>
+						<h4>Web Designer</h4>
+					</div>
+					<div class="desc">
+						<h3>language of implementation</h3>
+						<h4>Html, Css and Ruby on Rack.</h4>
+					</div>
+					<div class="desc">
+						<h3>Framework</h3>
+						<h4>Skel Js</h4>
+					</div>
+					<div class="button_2">
+						<a href="http://www.vickeeyz.com" target="_blank">Visit Website</a>
+					</div>
+				</div>
+					<div class="clear"> </div>
+					
+			 </div>
+		</div>	
+		
+	
+	</div>
+	</div>
+	</div>
+	</div>
+			
+		</section>
+			<link href="css/owl.carousel.css" rel="stylesheet">
+		     <!-- Owl Carousel Assets -->
+		    <!-- Prettify -->
+		    <script src="Js/owl.carousel.js"></script>
+		        <script>
+		    $(document).ready(function() {
+		
+		      $("#owl-demo").owlCarousel({
+		        items : 1,
+		        lazyLoad : true,
+		        autoPlay : true,
+		        navigation : true,
+			    navigationText : ["",""],
+			    rewindNav :true,
+			    scrollPerPage :true,
+			    pagination : true,
+    			paginationNumbers: false,
+		      });
+		
+		    });
+		    $(document).ready(function() {
+		
+		      $("#owl-demo1").owlCarousel({
+		        items : 1,
+		        lazyLoad : true,
+		        autoPlay : true,
+		        navigation : true,
+			    navigationText : ["",""],
+			    rewindNav : true,
+			    scrollPerPage :true,
+			    pagination : false,
+    			paginationNumbers: false,
+		      });
+		
+		    });
+		    $(document).ready(function() {
+		
+		      $("#owl-demo2").owlCarousel({
+		        items : 1,
+		        lazyLoad : true,
+		        autoPlay : true,
+		        navigation : false,
+			    navigationText : ["",""],
+			    rewindNav : false,
+			    scrollPerPage :true,
+			    pagination : false,
+    			paginationNumbers: false,
+		      });
+		
+		    });
+		    </script>	
+
+		<!-- Skills section -->	
+
+		<div class="skills" id="skills">
+		   <section class="text-light">
+					<div  class="wrap">
+					<div class="row-content1">
+						<h3 class="heading">Skills</h3>
+						<p class="para">I am passionate user interface designer with interaction design background.<br>My goal is to make the world wide web a better place by designing beautiful user experiences, one site at a time.</p>
+						<div class="chart" data-percent="60" data-bar-color="#35AFBA" data-animate="4000">
+							<div class="chart-content">
+								<div class="percent"></div>
+								<div class="chart-title">HTML</div>
+							</div><!-- chart-content -->
+						</div><!-- chart -->
+						<div class="chart" data-percent="50" data-bar-color="#FF6060" data-animate="2500">
+							<div class="chart-content">
+								<div class="percent"></div>
+								<div class="chart-title">CSS</div>
+							</div><!-- chart-content -->
+						</div><!-- chart -->
+						<div class="chart" data-percent="30" data-bar-color="#3AD079" data-animate="3000">
+							<div class="chart-content">
+								<div class="percent"></div>
+								<div class="chart-title">JavaScript</div>
+							</div><!-- chart-content -->
+						</div><!-- chart -->
+						<div class="chart" data-percent="45" data-bar-color="#58C0E3" data-animate="3500">
+							<div class="chart-content">
+								<div class="percent"></div>
+								<div class="chart-title">jQuery</div>
+							</div><!-- chart-content -->
+						</div><!-- chart -->
+						<div class="clear"> </div>
+					</div>	
+					</div>
+				</section>		
+				<script src="Js/plugins.js"></script>
+				<script src="Js/script.js"></script>		
+		   </div>
+		
+		<!-- Site Info section -->
 		
 		<section id="siteInfo" class="text-centered">
-			Technologies used to built this website: HTML5, CSS3, JavaScript.
+			Technologies used to built this website: HTML5, CSS3, JavaScript, jQuery.
 		</section>
+		
+		<!-- Contact me section -->
+
 		<section id="contact" class="sroll-panel">
-			<div class="jumbotron jumbotron-black text-centered">
+			<div class="text-centered">
 				<h3>Mail me on: <span>ankit.11ch@gmail.com</span></h3>
-				<h3>Call Me: (+91)7715837737</h3>
-				
-				<h3>Find me on:
-				<a href="https://www.facebook.com/ChavanAnkit1" target="_blank"><img src="images/icons/png/fb2.png" height="70px" width="70px"/></a></span>
-				<a href="http://twitter.com/ankitchavan1" target="_blank"><img src="images/icons/png/twitter.png" height="70px" width="70px"/></a>
-				<a href="http://linkedin.com/in/ankitchavan" target="_blank"><img src="images/icons/png/linkedin.png" height="70px" width="70px"/></a>
-				</h3>
-				<br>
-			<h2>Thank You.</h2>
+				<h3>Call Me: 7715837737</h3>
+			<div class="row flush">
+				<div class="u8">	
+					<h3>Find me on:</h3>
+				</div>
+				<div class="u3">
+					<a href="https://www.facebook.com/ChavanAnkit1" target="_blank"><img src="images/icons/fb2.png" height="70px" width="70px"/></a></span>
+					<a href="http://twitter.com/ankitchavan1" target="_blank"><img src="images/icons/twitter.png" height="70px" width="70px"/></a>
+					<a href="http://linkedin.com/in/ankitchavan" target="_blank"><img src="images/icons/linkedin.png" height="70px" width="70px"/></a>
+				</div>
 			</div>
+				<br>
+			<h1>Thank You.</h1>
+			</div>
+
+		<!-- Footer section -->
+			
 		<div footer class="mainFooter">
 			<p>Built by Ankit Chavan </p>
 		</div>	
 		</section>
+		
 	</div> 
-
+	
 	<!-- Load JS here for greater good =============================-->
-    <script src="js/jquery-1.8.3.min.js"></script>
-    <script src="js/jquery-ui-1.10.3.custom.min.js"></script>
-    <script src="js/jquery.ui.touch-punch.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/bootstrap-select.js"></script>
-    <script src="js/bootstrap-switch.js"></script>
-    <script src="js/flatui-checkbox.js"></script>
-    <script src="js/flatui-radio.js"></script>
-    <script src="js/jquery.tagsinput.js"></script>
-    <script src="js/jquery.placeholder.js"></script>
-
-    <!-- jquery -->	
-	<script src="js/jquery-1.7.2.min.js" type="text/javascript"></script>
-	<!-- easing plugin ( optional ) -->
-	<script src="js/easing.js" type="text/javascript"></script>
+    <!-- easing plugin ( optional ) -->
+	<script src="Js/easing.js" type="text/javascript"></script>
 	<!-- UItoTop plugin -->
-	<script src="js/jquery.ui.totop.js" type="text/javascript"></script>
+	<script src="Js/jquery.ui.totop.js" type="text/javascript"></script>
 	<!-- Starting the plugin -->
-	<script type="text/javascript">
+    <script type="text/javascript">
 		$(document).ready(function() {
 			
 			var defaults = {
@@ -272,5 +410,6 @@
 			
 		});
 	</script>
+
   </body>
 </html>
