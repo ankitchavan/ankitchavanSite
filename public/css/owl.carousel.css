@@ -3,12 +3,12 @@
 *	v1.24
 */
     #owl-demo .item{
-       margin: 0.5em;
+       /*margin: 0.5em;*/
 		transition: 0.5s all;
 		-webkit-transition: 0.5s all;
 		-moz-transition: 0.5s all;
 		-o-transition: 0.5s all;
-		padding: 1em;
+		/*padding: 1em;*/
 		cursor:pointer;
     }
     #owl-demo .item:hover a{
@@ -34,7 +34,7 @@
 }
 /*****/
 .carousel{
-	margin: 0 0.7em;
+	margin: 0em 0.7em;
 	transition:0.5s all;
 	-webkit-transition:0.5s all;
 	-moz-transition:0.5s all;
@@ -101,8 +101,9 @@
 
 .group_1_img .fontend
 {
+	margin-top: 12%;
 	font-weight: normal;
-	padding: 2.5em 0.55em;
+	padding: 2.40em 0.57em;
 	font-size: 2em;
 	background: #34CF75;
 	color: #FFF;
@@ -110,15 +111,16 @@
 }
 .group_1_img .core
 {
+	margin-top: 12%;
 	font-weight: normal;
-	padding: 2.5em 1.81em;
+	padding: 2.40em 1.85em;
 	background: #35AFBA;
 	font-size: 2em;
 }
 .group_1_img .ui1
 {
 	font-weight: normal;
-	padding: 2.5em 2.6em;
+	padding: 2.4em 2.7em;
 	font-size: 2em;
 	color:#FF605F;
 	text-shadow: 0px 0px 2px #FF605F;
@@ -155,17 +157,18 @@
 {
 	width:100%;
 }
+
 .group_2_items
 {
 	padding-top: 0em;
 }
 .desc
 {
-	padding: 0.7em 0em;
+	/*padding: 0.7em 0em;*/
 }
 .group_2_text2
 {
-	padding: 1em 0em;
+	/*padding: 1em 0em;*/
 	float: right;
 	width:25%;
 }
@@ -174,7 +177,6 @@
 	color: #CFCFCF;
 	font-size: 0.9em;
 	font-weight: 600;
-	padding-bottom: 10px;
 	text-shadow: 0px 0px 1px #CFCFCF;
 	text-transform: uppercase;
 	font-family: 'Open Sans', sans-serif;
@@ -182,7 +184,9 @@
 .group_2_text2 h4
 {
 	color:#333333;
+	font-weight: normal;
 	font-size: 0.95em;
+	margin-top: -8px;
 	padding-bottom: 10px;
 }
 .button_2
@@ -331,7 +335,7 @@
 	overflow: hidden;
 	position: relative;
 	width: 100%;
-	padding: 1.2em 0em;
+	/*padding: 1.2em 0em;*/
 }
 .owl-carousel .owl-wrapper-outer.autoHeight{
 	-webkit-transition: height 500ms ease-in-out;
@@ -607,7 +611,7 @@
 }
 @media only screen and (max-width:768px)  {
 	.owl-carousel {
-		width: 85%;
+		width: 100%;
 		margin: 0 auto;
 		padding: 2%;
 	}
@@ -669,7 +673,6 @@
 	}
 	.group_2_img1 {
 	width: 70%;
-	margin: 0 auto;
 	float: none;
 	}
 	.group_2_text2 {
@@ -702,8 +705,13 @@
 	}
 }
 @media only screen and (max-width:480px)  {
+	.carousel{
+		padding-right: 0;
+		margin: 0;
+	}
+
 	.owl-carousel {
-		width: 89%;
+		width: 90%;
 		margin: 0 auto;
 		padding: 2%;
 	}
@@ -711,12 +719,42 @@
 	float: none;
 	width: 46%;
 	}
-	.group_1_img .ui, .group_1_img .ux {
-	font-size: 1.8em;
+
+	.group_1{
+		padding-left:20px;
 	}
-	.group_1_img .fontend {
-	font-size: 1.36em;
+	.group_1_img
+	{
+		margin-left: 100px;
 	}
+	
+	.group_1_img .fontend
+	{
+		margin-top: 8.7%;
+		padding: 2.5em 0.6em;
+		font-size: 1.2em;
+	}
+	.group_1_img .core
+	{
+		margin-top: 8.7%;
+		padding: 2.55em 1.9em;
+		font-size: 1.2em;
+	}
+	.group_1_img .ui1
+	{
+		font-size: 1.2em;
+		padding: 2.55em 2.6em;
+	}
+	.group_2{
+		padding-left:20px;
+	}
+	
+	.group_2_text2 h3
+	{
+		margin-top: -10px;
+		
+	}	
+	
 	.group_3
 	{
 		padding: 0.5em 0em;
@@ -729,9 +767,9 @@
 	color: #FFF;
 	height: 50px;
 	}
+
 }
-@media only screen and (max-width:320px) 
-{
+@media only screen and (max-width:320px) {
 	.owl-prev
 	{
 		left:-20px;
