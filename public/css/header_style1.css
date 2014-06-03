@@ -241,8 +241,12 @@
 	}
 }
 @media only screen and (max-width: 320px) {
+	.flexy-menu{
+		background:none;
+	}
 	.flexy-menu>li.showhide {
 		height: 40px;
+		margin-top: 5px;
 	}
 	.flexy-menu li {
 		line-height: 10px;
@@ -263,10 +267,10 @@
 	height: 35px;
 	}
 	.flexy-menu>li.showhide span.title {
-	margin: 10px 0 0 10px;
+	margin: 12px 0 0 10px;
 	}
 	.flexy-menu>li.showhide span.icon {
-	margin: 9px 4px;
+	margin: 	9px 5px;
 	}
 
 }
