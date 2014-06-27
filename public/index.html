@@ -25,6 +25,8 @@
 	<!-- Loading srolling_Js -->
 	<link rel="stylesheet" media="screen,projection" href="css/ui.totop.css" />
 
+
+
 	<script type="text/javascript">
  
 		$(document).ready(function(){
@@ -35,6 +37,10 @@
 	 
 	
 	</script>
+
+	
+
+
 	<script>
 	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
 	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
@@ -53,6 +59,7 @@
 		<script type="text/javascript">$(document).ready(function(){$(".flexy-menu").flexymenu({speed: 400,type: "horizontal",align: "right"});});
 		</script>
 
+		
   </head>
   <body id="page_effect" style="display:none;">
 	
@@ -76,59 +83,25 @@
 				</div>	<!-- end h_menu -->
 				<div class="clear"> </div>
 
-        <!--  <nav id="nav" class="6u">
-            <a href="#home">Home</a>
-            <a href="#about">About Me</a>
-            <a href="#work">My Work</a>
-            <a href="#skills">Skills</a>
-            <a href="#contact">Contact Me</a>
-          </nav> -->
+        
         </div>
 		
-		<section class="text-centered">
-			<div class="main">
-				<h1>Front end developer.</h1>
+		<section class="">
+			<div class="logo">
+			
+				<img src="images/a1.jpg" style=" margin-top:12%; margin-left:2%; padding-left:0px;">
+			
+				
+			</div>
+			<br>
+			<div class="main fade">
+				<p style="color:#4db3db;">Front end developer.</p>
+				<p style="color:#3cebc1;">UI developer.</p>
 			</div>
 		</section>
 		</div>
+		</div>
 		
-		<div class="group_1" id="group_1">
-		<div class="group_1-items">
-			<div class="wrap">
-				<div id="owl-demo" class="owl-carousel">
-			
-		<div class="item">
-			<div class="carousel">
-		  	    <div class="group_1_img uiIcon">
-					<h3 class="ui fontend">FRONTEND</h3>
-					<h4 class="ux ui1">UI</h4>
-					<div class="clear"> </div>
-				</div>
-				<div class="group_1_text">
-					<h3>I create simple interfaces for humans and enjoy pixel-perfection.</h3>
-					<p>I’m passionate user interface designer with interaction design background.</p>
-				</div>
-					<div class="clear"> </div>
-			 </div>
-		</div>	
-		<div class="item">
-			<div class="carousel">
-		  	    <div class="group_1_img uiIcon">
-					<h3 class="ui core">CORE</h3>
-					<h4 class="ux ui1">UI</h4>
-					<div class="clear"> </div>
-				</div>
-				<div class="group_1_text">
-					<h3>I create simple interfaces for humans and enjoy pixel-perfection.</h3>
-					<p>I’m passionate user interface designer with interaction design background.</p>
-				</div>
-					<div class="clear"> </div>
-			 </div>
-		</div>	
-	</div>
-	</div>
-	</div>
-	</div>
 		<div class="down-arrow">
 			<a href="#about" class="scroll" ><span> </span></a>
 		</div>
@@ -145,26 +118,33 @@
 				<hr style="margin-top:20px;">
 			</div>
 			<div class="text-centered likes">
-				<div class="row">
-					<div class="u">
-						<a href="http://www.mumbaicricket.com/mca/playerszone.asp?searchfor=15767&searchin=regno&submit=Search" target="_blank"><img src="images/icons/cricket.png"/></a>
+				<div class="row " style="">
+					<div class="u" style=" ">
+						<a href="http://www.mumbaicricket.com/mca/playerszone.asp?searchfor=15767&searchin=regno&submit=Search" target="_blank">
+						<img src="images/icons/cricket.png"/></a>
 							<p>I like to play Cricket.</p>
+						
 					</div>
 					
-					<div class="u">
-							<a href="https://www.facebook.com/ankitsclicks" target="_blank"><img src="images/icons/camera3.png"/></a>
+					<div class="u" style="">
+							<a href="https://www.facebook.com/ankitsclicks" target="_blank">
+							<img src="images/icons/camera3.png"/></a>
 							<p>I like Photography.</p>
+						
 					</div>
 					
-					<div class="u">
+					<div class="u" style="">
 							<img src="images/icons/fstream.png"/>
 							<p>I like to listen Songs.</p>
+						
 					</div>
 				</div>
 
+				
 			</div>
 			<hr style="clear:both;">
 			<div class="text-centered">
+				
 				<p>Wish me Happy B'day on <b>30th January</b></p>
 				<p>Marital Status: Single</p>
 			</div>
@@ -411,6 +391,42 @@
 			});
 		});
 	</script>
+
+
+		<script type="text/javascript" src="Js/jquery.innerfade.js"></script> 
+		<script type="text/javascript">
+	   $(document).ready(
+				function(){
+					$('#news').innerfade({
+						animationtype: 'slide',
+						speed: 750,
+						timeout: 2000,
+						type: 'random',
+						containerheight: '1em'
+					});
+					
+					$('ul#portfolio').innerfade({
+						speed: 1000,
+						timeout: 5000,
+						type: 'sequence',
+						containerheight: '220px'
+					});
+					
+					$('.fade').innerfade({
+						speed: 2000,
+						timeout: 5000,
+						containerheight: '1.5em'
+					});
+					
+					$('.adi').innerfade({
+						speed: 'slow',
+						timeout: 5000,
+						type: 'random',
+						containerheight: '150px'
+					});
+
+			});
+  	</script>
 
   </body>
 </html>
