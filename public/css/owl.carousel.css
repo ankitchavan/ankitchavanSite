@@ -174,7 +174,7 @@
 }
 .group_2_text2 h3
 {
-	color: #FAFAFA;
+	color: #343434;
 	font-size: 0.9em;
 	font-weight: 600;
 	text-shadow: 0px 0px 1px #CFCFCF;
@@ -194,11 +194,11 @@
 	margin: 2em 0em;
 }
 .button_2 a{
-	border:2px solid #3cebc1;
+	border:2px solid #4db3dc;
 	font-size: 1em;
 	font-weight: bold;
 	padding: 0.6em 2.2em;
-	color: #3cebc1;
+	color: #4db3dc;
 	border-radius: 5px;
 	-webkit-border-radius: 5px;
 	-o-border-radius: 5px;
@@ -206,7 +206,7 @@
 }
 .button_2 a:hover
 {
-	background: #3cebc1;
+	background: #4db3dc;
 	color:#fff;
 }
 
@@ -571,6 +571,10 @@
 	.group_2 {
 	padding: 1em 0em 1em 0em;
 	}
+	.carousel .group_2_img1 img{
+		width:700px; 
+		height:450px;
+	}
 }
 @media only screen and (max-width:1024px)  {
 	.owl-carousel {
@@ -725,7 +729,6 @@
 	.group_2_text2 h3
 	{
 		margin-top: -7px;
-		font-size: 16px;
 		
 	}	
 	
@@ -813,40 +816,6 @@
 		margin: 0 auto;
 		padding: 0%;
 	}
-	.group_3_img {
-	float: none;
-	width: 46%;
-	}
-
-	.group_1{
-		padding-left:15px;
-	}
-	.group_1_img
-	{
-		margin-left: 40px;
-	}
-	
-	.group_1_img .fontend
-	{
-		margin-top: 14%;
-		padding: 2.5em 0.6em;
-		font-size: 1.2em;
-	}
-	.group_1_img .core
-	{
-		margin-top: 14%;
-		padding: 2.55em 1.9em;
-		font-size: 1.2em;
-	}
-	.group_1_img .ui1
-	{
-		font-size: 1.2em;
-		padding: 2.55em 2.6em;
-	}
-	.group_2{
-		padding-left:20px;
-	}
-
 	.group_2_img1{
 		display: none;
 	}
@@ -854,7 +823,7 @@
 	.group_2_text2 h3
 
 	{
-		font-size: 13px;
+		font-size: 12px;
 		margin-top: -10px;
 		
 	}	
