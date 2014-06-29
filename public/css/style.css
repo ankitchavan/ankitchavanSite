@@ -508,16 +508,12 @@ a:hover{
 	}
 
 	#home{
+		background-color: #343434;
+		background-image: none;
 		margin-top: 0;
 		padding-top:0;
 	}
 
-	.main h1{
-		font-size: 40px;
-		margin: 0%;
-		padding: 0;
-		
-	}
 	
 	#about h1{
 		margin-top: 6%;
@@ -527,20 +523,21 @@ a:hover{
 	.main p{
 		text-align: center;
 		padding: 0;
-		margin-left: -15%;
+		margin-left: 0;
 		margin-top: 15%;
-		font-size: 45px;
+		font-size: 60px;
 	}
 
 	.mainInfo{
-		font-size: 20px;
-		width: 50%;
-		margin-top: 7%;
+		font-size: 22px;
+		width: 60%;
+		margin:  12% auto;
+		
 	}
 
 	.down-arrow span{
 		margin-top: 50px;
-		margin-left: -150px;
+		margin-left: -40px;
 	}
 	#about{
 		padding-top: 7%;
@@ -619,16 +616,14 @@ a:hover{
 @media(max-width:640px){
 
 	.main p{
-		padding: 0;
 		margin-top: 20%;
-		margin-left: -10%;
-		font-size: 45px;
+		font-size: 50px;
 	}
 
 	.mainInfo{
-		width: 60%;
-		margin-top: 13%;
-		margin-left: 8%;	
+		width: 70%;
+		font-size: 22px;
+		margin-top: 20%;	
 	}
 
 	#about h1{
@@ -684,20 +679,11 @@ a:hover{
 	}
 
 	#home{
-		width:100%;
+		background-color: #343434;
+		background-size: 100%;
+		background-repeat: no-repeat;
+		background-position: bottom;
 	}
-	.down-arrow
-	{
-		width:100px;
-		padding: 0;
-		margin: 0 auto;
-	}
-
-	.down-arrow span{
-		margin-left: -80%;
-	}
-
-	
 	#about{
 		padding-top:3%;
 		width:100%;
@@ -768,20 +754,20 @@ a:hover{
 @media(max-width:480px){
 
 	.main p{
-		padding-left: 3%;
 		margin-top: 25%;
 		font-size: 40px;
 	}
 
 	.mainInfo{
 		width: 70%;
-		margin-top: 20%;
-		font-size: 18px;
+		margin-top: 30%;
+		font-size: 20px;
 	}
 	
 	#home{
-		background-position: 750px;
-
+		background-color: #343434;
+		background-image: none;
+		background-repeat: no-repeat;
 	}
 
 	#about h1{
@@ -825,16 +811,8 @@ a:hover{
 		box-shadow:none;
 	}
 
-	.down-arrow
-	{
-		width:100px;
-		padding: 0;
-		margin: 0 auto;
-	}
-
 	.down-arrow span{
-		margin-left: -40%;
-		margin-top: 50%;
+		margin-left: -25px;
 	}
 
 	#about p{
@@ -909,23 +887,19 @@ a:hover{
 @media(max-width:320px){
 
 	.main p{
-		padding-left: 3%;
 		padding-top: 3%;
-		font-size: 26px;
-		font-weight: bold;
-	}
-
-	#mainInfo{
-		font-size: 16px;
+		font-size: 28px;
 	}
 
 	#home{
-		background-position: 530px;
+		background-size: 100%;
 	}
-	.container{
-		margin: 0%;
-		padding: 0%;
+
+	.mainInfo{
+		margin-top: 35%;
+		font-size: 18px;
 	}
+
 	#about h1{
 		padding: 0;
 		color:#4db3dc;
@@ -977,15 +951,9 @@ a:hover{
 		box-shadow:none;
 	}
 
-	.down-arrow
-	{
-		width:100px;
-		padding-top: 5%;
-		padding-bottom: 10%;
-	}
-
+	
 	.down-arrow span{
-		margin-left: 0px;
+		margin-left: -20px;
 	}
 
 	#about p{
