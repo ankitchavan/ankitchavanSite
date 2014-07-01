@@ -15,9 +15,9 @@ if ($_POST['parse_var'] == "contactform") {
 
 EOD;
 
-    $headers = "From: $emailField\r\n";
-    $headers .= "content-type: text/html\r\n";
-    $success = mail("$yourEmail","$emailTitle","$body","$headers");
+    $headers = "From:" $emailField "\r\n";
+    $headers .= "content-type:" text/html "\r\n";
+    $success = mail($yourEmail,$emailTitle,$body,$headers);
 
     $Sent = "Thank You! Your message has been sent.";
 }
@@ -39,23 +39,23 @@ EOD;
     <h1>Responsive HTML5 Contact Form Demo</h1>
         <label>
         <span>Name*:</span>
-        <input type="text" maxlength="30" size="30" placeholder="Please enter your name" name="name" id="name" required autofocus value="<?php print "$nameField"; ?>">
+        <input type="text" maxlength="30" size="30" placeholder="Please enter your name" name="name" id="name" required autofocus value="<?php print $nameField; ?>">
         </label>
          
        <label>
         <span>Email*:</span>
-        <input type="email" maxlength="40" size="40" placeholder="youremail@gmail.com" name="email" id="email" required value="<?php print "$emailField"; ?>">
+        <input type="email" maxlength="40" size="40" placeholder="youremail@gmail.com" name="email" id="email" required value="<?php print $emailField; ?>">
         </label>
        
         <label>
         <span>Message*:</span>    
-        <textarea name="message" id="message" cols="10" rows="5" required><?php print "$messageField"; ?></textarea>
+        <textarea name="message" id="message" cols="10" rows="5" required><?php print $messagefield; ?></textarea>
         </label>
 
         <input type="hidden" name="parse_var" id="parse_var" value="contactform">
         <input type="submit" id="submit"  name="submit" value="Send">
         
-        <?php print "$sent"; ?>     
+        <?php print $sent; ?>     
 
     </form>
     </div>
