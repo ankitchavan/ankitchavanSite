@@ -1,42 +1,51 @@
 
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <title>Simple PHP Contact Form</title>
-    <link href="style.css" rel="stylesheet" type="text/css" media="screen" />
-</head>
- 
+<html>
 <body>
+<?php
+function spamcheck($field) {
+  // Sanitize e-mail address
+  $field=filter_var($field, FILTER_SANITIZE_EMAIL);
+  // Validate e-mail address
+  if(filter_var($field, FILTER_VALIDATE_EMAIL)) {
+    return TRUE;
+  } else {
+    return FALSE;
+  }
+}
+?>
 
-
-  <div class="wrapper">  
-    <div id="contact_form">
-    <form name="contactform" id="contactform" method="post" action="form.php">
-    <h1>Responsive HTML5 Contact Form Demo</h1>
-        <label>
-        <span>Name*:</span>
-        <input type="text" maxlength="30" size="30" placeholder="Please enter your name" name="name" id="name" required autofocus >
-        </label>
-         
-       <label>
-        <span>Email*:</span>
-        <input type="email" maxlength="40" size="40" placeholder="youremail@gmail.com" name="email" id="email" required >
-        </label>
-       
-        <label>
-        <span>Message*:</span>    
-        <textarea name="message" id="message" cols="10" rows="5" required></textarea>
-        </label>
-
-        <input type="hidden" name="parse_var" id="parse_var" value="contactform">
-        <input type="submit" id="submit"  name="submit" value="Send">
-        
-        <?php print "$sent"; ?>     
-
-    </form>
-    </div>
-   </div>
+<h2>Feedback Form</h2>
+<?php
+// display form if user has not clicked submit
+if (!isset($_POST["submit"])) {
+  ?>
+  <form method="post" action="<?php echo $_SERVER["PHP_SELF"];?>">
+  From: <input type="text" name="from"><br>
+  Subject: <input type="text" name="subject"><br>
+  Message: <textarea rows="10" cols="40" name="message"></textarea><br>
+  <input type="submit" name="submit" value="Submit Feedback">
+  </form>
+  <?php 
+} else {  // the user has submitted the form
+  // Check if the "from" input field is filled out
+  if (isset($_POST["from"])) {
+    // Check if "from" email address is valid
+    $mailcheck = spamcheck($_POST["from"]);
+    if ($mailcheck==FALSE) {
+      echo "Invalid input";
+    } else {
+      $from = $_POST["from"]; // sender
+      $subject = $_POST["subject"];
+      $message = $_POST["message"];
+      // message lines should not exceed 70 characters (PHP rule), so wrap it
+      $message = wordwrap($message, 70);
+      // send mail
+      mail("ankit.11ch@gmail.com",$subject,$message,"From: $from\n");
+      echo "Thank you for sending us feedback";
+    }
+  }
+}
+?>
  
     <script type="text/javascript">
     localStorage.clear();
