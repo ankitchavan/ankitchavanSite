@@ -8,7 +8,8 @@ if ($_POST['parse_var'] == "contactform") {
     $nameField = $_POST['name'];
     $messageField = $_POST['message'];
 
-    $body = <<<EOD <br><hr><br>
+$body = <<EOD 
+<br><hr><br>
     Email: $emailField <br />
     Name: $nameField <br /> 
     Message: $messageField <br />
