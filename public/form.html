@@ -8,6 +8,8 @@
 </head>
  
 <body>
+
+
   <div class="wrapper">  
     <div id="contact_form">
     <form name="contactform" id="contactform" method="post" action="form.php">
@@ -36,5 +38,17 @@
     </div>
    </div>
  
+    <script type="text/javascript">
+    localStorage.clear();
+
+    // Reset number of hits.
+    if( localStorage.hits ){
+       localStorage.hits = Number(localStorage.hits) +1;
+    }else{
+       localStorage.hits = 1;
+    }
+    
+  </script>
+
 </body>
 </html>
