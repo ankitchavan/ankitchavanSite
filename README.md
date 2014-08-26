@@ -2,12 +2,11 @@
 
 > Static Website built on HTML5, CSS3, jQuery, Javascript on Ruby and Rack framework deployed on Heroku.
 
-> Built using [BOOTFLAT](https://github.com/flathemes/bootflat)
+> single-page application (SPA) OR  single-page interface (SPI)
 
-> BOOTFLAT is an open source Flat UI KIT based on Twitter Bootstrap 3 css framework. It provides a faster, easier and less repetitive way for web developers to create elegant web app. 
+ is a web application or web site that fits on a single web page with the goal of providing a more fluid user experience akin to a desktop application.
 
-url : http://www.flathemes.com/
-url : https://github.com/flathemes/bootflat
+In a SPA, either all necessary code – HTML, JavaScript, and CSS – is retrieved with a single page load. The page does not reload at any point in the process, nor does control transfer to another page, although modern web technologies (such as those included in HTML5) can provide the perception and navigability of separate logical pages in the application.
 
 #### Demo :
 Watch the website in use : http://www.ankitchavan.com/
