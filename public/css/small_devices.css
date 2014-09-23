@@ -1,0 +1,417 @@
+@media(max-width:1280px){
+
+	*{
+		-webkit-margin-before:0px;
+		-webkit-padding-start:0px;
+	}
+
+	.logo p{
+		font-size: 38px;
+		padding-left: 8%;
+	}
+
+	nav ul li{
+		padding: 4% 2.5%;
+	}
+
+	.main p{
+		font-size: 50px;
+	}
+
+	.mainInfo{
+		font-size: 20px;
+		width: 50%;
+		margin-left: 5%;
+	}
+
+	.heading{
+		font-size: 50px;
+	}
+
+}
+
+@media(max-width:1024px){
+
+	*{
+		-webkit-margin-before:0px;
+		-webkit-padding-start:0px;
+		font-size: 18px;
+	}
+
+	.logo, nav{
+		height: 75px;
+	}
+
+	.logo p{
+		font-size: 35px;
+		padding-left: 8%;
+		padding-top: 3%;
+
+	}
+
+	.navbar .logo{
+		width:40%;
+	}
+
+	.logo p span{
+		font-size: 40px;
+	}
+
+	.header #nav ul li{
+		font-size: 21px;
+		padding: 6% 2.5%;
+	}
+
+	.main p{
+		font-size: 45px;
+		margin-top: 15%;
+	}
+
+	.mainInfo{
+		width: 50%;
+		margin-left: 5%;
+		font-size: 19px;
+		padding-top: 20%;
+	}
+
+	.heading{
+		padding-top: 9%;
+	}
+
+	#about{
+		padding-bottom: 4%;
+	}
+
+	.row .likes img{
+		width: 60%;
+	}
+}
+
+@media(max-width:768px){
+
+	*{
+		
+	}
+
+	.navbar{
+		height: 120px;
+	}
+
+	.navbar .logo{
+		display: none;
+	}
+
+	.scrolled.navbar .logo{
+		display: none;
+	}
+
+	.scrolled.navbar {
+		height: 120px;
+	}
+
+	.navbar .nav{
+		width: 100%;
+		margin-right: 0;
+	}
+
+	.navbar .nav .item{
+		padding: 0;
+		line-height: 1;
+		
+	}
+
+	.scrolled.navbar .nav .item{
+		line-height: 1;
+	}
+
+	.navbar .nav .item a{
+		font-size: 14px;
+	}
+
+	.navbar .nav .item1{
+		background-image: url(../images/home.png);
+		height: 200px;
+		width: 200px;
+	}
+
+	.navbar .nav .item a img{
+	  display: block;
+	  margin-top: 0.5em;
+	  width: 80px;
+	  height: 80px;
+	}
+
+	#home{
+		background-color: #939393;
+		background-image: none;
+	}
+
+	.fade p{
+		margin-left: 0;
+		margin-top: 25%;
+		
+	}
+
+	.main p{
+		font-size: 50px;
+	}
+
+	.mainInfo{
+		width: 70%;
+		margin-left: 15%;
+		padding-top: 35%;
+	}
+
+	.down-arrow{
+		margin: 0% auto;
+	}
+
+	.heading{
+		padding-top:19%;
+	}
+
+	.row .likes img{
+		height: 130px;
+		margin:10% 0 1% 0;
+	}
+
+	.row .likes{
+		height: 200px;
+	}
+
+	#work{
+		height: 1200px;
+	}
+
+	.overlay{
+		background-image: none;
+	}
+
+	.work1,.work2{
+		clear: both;
+		width: 80%;
+		margin-left:10%;
+	}
+
+	.work1,.work2{
+		
+	}	
+
+	.imgOverlay{
+		opacity: 0.9;
+		border:4px solid #919191;
+	}
+
+	#skills{
+		height: auto;
+		padding: 1% 8%;
+	}
+
+	#skills img{
+	  height: 30%;
+	  width: 25%;
+	  margin: 2.5% 3% 8% 3%; 
+	}
+
+	#skills .small{
+	  height: 22%;
+	  width: 18%;
+	}
+
+	#skills .side{
+	  margin: 2.5% 3% 8% 3%;
+	}
+
+	.siteInfo{
+  		font-size: 16px;
+  	}
+
+  	#contact h3, #contact h3 span{
+  		font-size:30px;
+  	}
+
+  	.social img{
+  		box-shadow: none;
+  	}
+
+  	#contact h1{
+  		font-size: 55px;
+  	}
+
+  	footer p{
+		padding: 2%;
+	}
+}
+
+@media(max-width:480px){
+
+	*{
+		
+	}
+
+	.navbar .nav .item a img{
+	  margin-top: 0.5em;
+	  width: 60px;
+	  height: 60px;
+	}
+
+	.navbar .nav .item a{
+		font-size: 12px;
+	}
+
+	.navbar .nav .item{
+		margin-right: 2%;
+	}
+
+	.scrolled.navbar{
+		height: 100px;
+	}
+
+	.main p{
+		font-size: 35px;
+	}
+
+	.fade p{
+		margin-top: 38%;
+	}
+
+	.mainInfo{
+		width: 70%;
+		margin-left: 15%;
+		padding-top: 50%;
+	}
+
+	.heading{
+		padding-top:24%;
+		font-size: 35px;
+	}
+
+	.row .likes{
+		width: 100%;
+		height: 220px;
+	}
+
+	.row .likes img{
+		width: 50%;
+		height: 150px;
+		margin:5% 0 1% 0;
+	}
+
+	#work{
+		height: 1050px;
+	}
+
+	.projectDetails{
+	  margin-top: 15%;
+	}
+
+	#skills{
+		padding: 4% 8% 1% 8%;
+	}
+
+	#skills img{
+	  height: 35%;
+	  width: 30%;
+	  margin: 2.5% 3% 8% 3%; 
+	}
+
+	#skills .small{
+	  height: 25%;
+	  width: 18%;
+	}
+
+	.siteInfo{
+  		font-size: 12px;
+  		height: 35px;
+  	}
+
+  	#contact h3, #contact h3 span{
+  		font-size:25px;
+  	}
+
+  	.social img{
+  		margin-top: 5%;
+  	}
+
+  	footer p{
+		padding-top: 4%;
+		font-size: 16px;
+	}
+
+	footer p span{
+		font-size: 16px;	
+	}
+
+}
+
+@media(max-width:320px){
+
+	*{
+		font-size: 16px;
+		
+	}
+
+	.navbar .nav .item{
+		margin-right: 0.2%;
+	}
+	
+	.navbar .nav .item a img{
+	  margin-top: 0.5em;
+	  width: 60px;
+	  height: 60px;
+	}	
+
+	.main p{
+		font-size: 28px;
+	}
+
+	.fade p{
+		margin-top: 40%;
+	}
+
+	.down-arrow{
+		margin: -12% auto;
+	}
+
+	.heading{
+		padding-top:30%;
+		font-size: 28px;
+	}
+
+	.row .likes img{
+		height: 120px;
+	}
+
+	.row .likes{
+		height: 190px;
+	}
+
+	.siteInfo{
+  		font-size: 10px;
+  		height: 30px;
+  	}
+
+  	#contact h3, #contact h3 span{
+  		font-size:21px;
+  	}
+
+  	#contact h1{
+  		font-size: 40px;
+  	}
+
+  	footer{
+  		height: 50px;
+  	}
+
+  	footer p{
+		padding-top: 4%;
+		font-size: 13px;
+		padding-left: 1%;
+		padding-right: 1%;
+	}
+
+	footer p span{
+		font-size: 10px;	
+	}
+
+}
