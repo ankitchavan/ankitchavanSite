@@ -10,4 +10,7 @@ In a SPA, either all necessary code – HTML, JavaScript, and CSS – is retriev
 
 #### Demo :
 Watch the website in use : http://www.ankitchavan.com/
+<<<<<<< HEAD
 
+=======
+>>>>>>> 7041c22f6f473b66c742c1a254b5d14f04c61828
