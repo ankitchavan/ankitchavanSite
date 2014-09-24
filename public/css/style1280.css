@@ -1,0 +1,31 @@
+@media(max-width:1280px){
+
+	*{
+		-webkit-margin-before:0px;
+		-webkit-padding-start:0px;
+	}
+
+	.logo p{
+		font-size: 38px;
+		padding-left: 8%;
+	}
+
+	nav ul li{
+		padding: 4% 2.5%;
+	}
+
+	.main p{
+		font-size: 50px;
+	}
+
+	.mainInfo{
+		font-size: 20px;
+		width: 50%;
+		margin-left: 5%;
+	}
+
+	.heading{
+		font-size: 50px;
+	}
+
+}
