@@ -89,10 +89,6 @@
 
 @media(max-width:768px){
 
-	*{
-		
-	}
-
 	.navbar{
 		height: 120px;
 	}
