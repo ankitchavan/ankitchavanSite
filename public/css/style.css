@@ -1,15 +1,15 @@
 *{
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
-  font-size: 22px;	
+  	font-size: 22px;	
 	text-align: center;
 	box-sizing: border-box;
 }
 
 p{
 	line-height: 1.5em;
-  font-weight: 300;
-  color: #646464;
+  	font-weight: 300;
+  	color: #646464;
 }
 
 a{
