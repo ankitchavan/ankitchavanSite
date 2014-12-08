@@ -89,9 +89,9 @@ header {
 
 .navbar .logo h3{
 	  text-align: left;
- 	  font-size:40px;
+ 	  font-size:34px;
   	transition: 0.5s ease;
-  	margin:2.5% 10%;
+  	margin:3% 10%;
   	color: #fff;
   	font-weight: 800;
 }
@@ -99,7 +99,7 @@ header {
 
 .navbar .logo h3 span{
   color: #52b6ec;
-  font-size:40px;
+  font-size:34px;
   transition: 0.5s ease;
 }
 
@@ -127,7 +127,6 @@ header {
   	margin-top: 5px;
   	margin-left: 3%;
   	width: 300px;
-  	padding-top:-1%;
   	height: 40px;
   	transition: 0.5s ease;
 }
