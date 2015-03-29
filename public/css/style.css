@@ -1,15 +1,24 @@
 *{
 	font-family: 'Open Sans', sans-serif;
 	margin: 0;
+<<<<<<< HEAD
   	font-size: 22px;	
+=======
+  font-size: 22px;	
+>>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
 	text-align: center;
 	box-sizing: border-box;
 }
 
 p{
 	line-height: 1.5em;
+<<<<<<< HEAD
   	font-weight: 300;
   	color: #646464;
+=======
+  font-weight: 300;
+  color: #646464;
+>>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
 }
 
 a{
@@ -89,9 +98,15 @@ header {
 
 .navbar .logo h3{
 	  text-align: left;
+<<<<<<< HEAD
  	  font-size:34px;
   	transition: 0.5s ease;
   	margin:3% 10%;
+=======
+ 	  font-size:40px;
+  	transition: 0.5s ease;
+  	margin:2.5% 10%;
+>>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
   	color: #fff;
   	font-weight: 800;
 }
@@ -99,7 +114,11 @@ header {
 
 .navbar .logo h3 span{
   color: #52b6ec;
+<<<<<<< HEAD
   font-size:34px;
+=======
+  font-size:40px;
+>>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
   transition: 0.5s ease;
 }
 
@@ -127,6 +146,10 @@ header {
   	margin-top: 5px;
   	margin-left: 3%;
   	width: 300px;
+<<<<<<< HEAD
+=======
+  	padding-top:-1%;
+>>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
   	height: 40px;
   	transition: 0.5s ease;
 }
