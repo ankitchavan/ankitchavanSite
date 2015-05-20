@@ -89,13 +89,10 @@
 
 @media(max-width:768px){
 
-<<<<<<< HEAD
-=======
 	*{
 		
 	}
 
->>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
 	.navbar{
 		height: 120px;
 	}
@@ -246,7 +243,6 @@
 	}
 }
 
-<<<<<<< HEAD
 @media(max-width:640px){
 	
 	.navbar .nav .item a img{
@@ -273,8 +269,6 @@
 	}	
 }
 
-=======
->>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
 @media(max-width:480px){
 
 	*{
@@ -300,7 +294,6 @@
 	}
 
 	.main p{
-<<<<<<< HEAD
 		font-size: 34px;
 	}
 
@@ -312,19 +305,6 @@
 		width: 80%;
 		margin-left: 10%;
 		padding-top: 220px;
-=======
-		font-size: 35px;
-	}
-
-	.fade p{
-		margin-top: 38%;
-	}
-
-	.mainInfo{
-		width: 70%;
-		margin-left: 15%;
-		padding-top: 50%;
->>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
 	}
 
 	.heading{
@@ -390,37 +370,25 @@
 
 }
 
-<<<<<<< HEAD
 @media(max-width:370px){
-=======
-@media(max-width:320px){
->>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
 
 	*{
 		font-size: 16px;
 		
 	}
 
-<<<<<<< HEAD
 	#home{
 		height: 500px;
 	}
 
-=======
->>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
 	.navbar .nav .item{
 		margin-right: 0.2%;
 	}
 	
 	.navbar .nav .item a img{
 	  margin-top: 0.5em;
-<<<<<<< HEAD
 	  width: 55px;
 	  height: 55px;
-=======
-	  width: 60px;
-	  height: 60px;
->>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
 	}	
 
 	.main p{
@@ -428,7 +396,6 @@
 	}
 
 	.fade p{
-<<<<<<< HEAD
 		margin-top: 170px;
 	}
 
@@ -437,9 +404,6 @@
 		margin-left: 10%;
 		font-size: 15px;
 		padding-top: 220px;
-=======
-		margin-top: 40%;
->>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
 	}
 
 	.down-arrow{
@@ -447,11 +411,7 @@
 	}
 
 	.heading{
-<<<<<<< HEAD
 		padding-top:35%;
-=======
-		padding-top:30%;
->>>>>>> 7e006608806bceb754a6745d6c4dec07f0787c0a
 		font-size: 28px;
 	}
 
